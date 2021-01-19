@@ -1,0 +1,1 @@
+curl -X POST --header 'Accept: text/html' --data-urlencode "title=服务器运行状态" --data-urlencode "content=`date +当前时间：%Y-%m-%d\ %H:%M:%S`\n服务器负载\n`uptime`\n磁盘使用情况\n`df -hl`"  "https://mp.application.pub/token.send" 
